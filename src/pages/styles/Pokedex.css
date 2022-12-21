@@ -1,0 +1,71 @@
+.pokedex_header{
+    padding: 0 20px;
+}
+
+.pokedex_inp{
+    border: 2px black;
+    border-radius: 8px;
+    box-shadow: 0 3px 9px #00000026;
+    padding: 10px 10px;
+}
+
+.pokedex_btn{
+    border: none;
+    padding: 10px 10px;
+    color: white;
+    cursor: pointer;
+    background-color: var(--color-red);
+}
+
+.pokedex_select{
+    text-transform: capitalize;
+    border: none;
+    outline: none;
+    box-shadow: 0 3px 9px #00000026;
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+
+.pokedex_form{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20 px;
+    flex-wrap: wrap;
+}
+
+.pokedex_listpg{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding-bottom: 20px;
+    flex-wrap: wrap;
+}
+
+.pokedex_listpg li{
+    padding: 10px;
+    background-color: var(--color-red);
+    cursor: pointer;
+    color: white;
+    border-radius: 10px;
+}
+
+.pokedex_listpg li.actPage{
+    background-color: black;
+}
+
+.Welcome {
+    color: rgb(91, 102, 153);
+    font-size: larger;
+    font-weight: bolder ;
+}
+
+.nameTrainer1 {
+    color: rgba(42, 42, 145, 0.867);
+    font-size: xx-large;
+    font-weight: bolder ;
+    text-decoration: underline;
+    text-underline-offset: 5px;
+}
